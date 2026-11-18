@@ -34,10 +34,10 @@
         <div style="border-top: 1px solid #555555; display: none; margin-bottom: 6px;"></div>
 
         <a href="https://www.linkedin.com/in/aubine-niyonzima-50082539b" target="_blank" style="margin-right: 8px; text-decoration: none;">
-          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" width="18" height="18" style="vertical-align: middle;">
+          <img class="social-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" width="18" height="18" style="vertical-align: middle;">
         </a>
         <a href="https://www.instagram.com/_nzm.aub" target="_blank" style="margin-right: 12px; text-decoration: none;">
-          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" width="18" height="18" style="vertical-align: middle;">
+          <img class="social-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" width="18" height="18" style="vertical-align: middle;">
         </a>
         <a href="https://www.bordet.be/fr" target="_blank" style="color: #c2185b; font-weight: 500; text-decoration: none; font-size: 12.5px;">— www.bordet.be —</a>
         <a href="https://www.bordet.be/fr" target="_blank" style="color: #f06292; font-weight: 500; text-decoration: none; font-size: 12.5px; display: none;">— www.bordet.be —</a>
@@ -47,7 +47,12 @@
 </table>
 
 <style>
+  /* Icônes blanches en mode sombre */
   @media (prefers-color-scheme: dark) {
+    .social-icon {
+      filter: invert(1) brightness(1.2);
+    }
+
     [style*="color: #000"], [style*="color: #c2185b"], [style*="color: #555"], [style*="color: #ec407a"],
     [style*="border-top: 1px solid #f8bbd0"] { display: none !important; }
     [style*="color: #ffffff"], [style*="color: #f48fb1"], [style*="color: #bbbbbb"], 
