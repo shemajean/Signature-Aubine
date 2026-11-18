@@ -10,11 +10,18 @@
       <div style="line-height: 1.4;">
         <strong style="font-size: 17px; color: #000000;">Aubine NIYONZIMA</strong><br>
         <span style="color: #ec407a; font-size: 12.5px; font-weight: 500;">Technologue en Radiothérapie</span><br>
-        <span style="color: #555555; font-size: 12.5px;">Institut Jules Bordet</span>
-        <!-- Mode sombre -->
+        <!-- Logo Bordet à la place du texte -->
+        <a href="https://www.bordet.be/fr" target="_blank" style="text-decoration: none;">
+          <img src="https://raw.githubusercontent.com/shemajean/Signature-Aubine/main/logo_bordet.PNG"
+            alt="Institut Jules Bordet" height="22" style="display: block; margin-top: 2px; height: 22px; width: auto;">
+        </a>
+        <!-- Mode sombre (logo reste le même) -->
         <strong style="font-size: 17px; color: #ffffff; display: none;">Aubine NIYONZIMA</strong><br>
         <span style="color: #f48fb1; font-size: 12.5px; font-weight: 500; display: none;">Technologue en Radiothérapie</span><br>
-        <span style="color: #bbbbbb; font-size: 12.5px; display: none;">Institut Jules Bordet</span>
+        <a href="https://www.bordet.be/fr" target="_blank" style="text-decoration: none; display: none;">
+          <img src="https://raw.githubusercontent.com/shemajean/Signature-Aubine/main/logo_bordet.PNG"
+            alt="Institut Jules Bordet" height="22" style="display: block; margin-top: 2px; height: 22px; width: auto;">
+        </a>
       </div>
 
       <div style="margin-top: 6px; line-height: 1.5; font-size: 13px;">
@@ -33,7 +40,6 @@
         <div style="border-top: 1px solid #f8bbd0; margin-bottom: 6px;"></div>
         <div style="border-top: 1px solid #555555; display: none; margin-bottom: 6px;"></div>
 
-      
         <a href="https://www.bordet.be/fr" target="_blank" style="color: #c2185b; font-weight: 500; text-decoration: none; font-size: 12.5px;">— www.bordet.be —</a>
         <a href="https://www.bordet.be/fr" target="_blank" style="color: #f06292; font-weight: 500; text-decoration: none; font-size: 12.5px; display: none;">— www.bordet.be —</a>
       </div>
@@ -42,12 +48,7 @@
 </table>
 
 <style>
-  /* Icônes blanches en mode sombre */
   @media (prefers-color-scheme: dark) {
-    .social-icon {
-      filter: invert(1) brightness(1.2);
-    }
-
     [style*="color: #000"], [style*="color: #c2185b"], [style*="color: #555"], [style*="color: #ec407a"],
     [style*="border-top: 1px solid #f8bbd0"] { display: none !important; }
     [style*="color: #ffffff"], [style*="color: #f48fb1"], [style*="color: #bbbbbb"], 
